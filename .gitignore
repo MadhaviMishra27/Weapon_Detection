@@ -1,3 +1,23 @@
+# Ignore large model files
+*.pt
+*.pth
+*.mp4
+
+# Ignore datasets & videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar
+*.gz
+
+# Ignore training outputs
+runs/
+models/runs/
+
+
+
 data/
 test_data/
 enhance_data/
