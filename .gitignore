@@ -1,16 +1,39 @@
+# ========================
 # Ignore large model files
+# ========================
 *.pt
 *.pth
-*.mp4
+*.onnx
+*.h5
 
-# Ignore datasets & videos
+# ========================
+# Ignore datasets, videos, audio
+# ========================
 *.mp4
 *.avi
 *.mov
 *.mkv
+*.wav
 *.zip
 *.tar
 *.gz
+
+# ========================
+# Ignore training outputs
+# ========================
+runs/
+models/runs/
+models/detected_crops/
+models/vt1_files/
+
+# ========================
+# Ignore temporary / cache
+# ========================
+__pycache__/
+*.log
+*.tmp
+*.DS_Store
+
 
 # Ignore training outputs
 runs/
